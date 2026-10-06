@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f0e6">
+  <meta name="description" content="A short, editable presentation on recent Alicorn project learnings and what remains to be tested.">
+  <title>Learning with Eve, Atlas &amp; Wren</title>
+  <link rel="stylesheet" href="deck.css">
+  <script src="deck.js" defer></script>
+</head>
+<body>
+<main class="deck" id="deck" aria-label="Learning with Eve, Atlas and Wren presentation">
+  <section class="slide cover active" aria-labelledby="s1-title">
+    <header class="topline"><span>ALICORN · WORKING NOTES</span><span class="issue">A learning log <i>✳</i></span></header>
+    <div class="cover-content">
+      <p class="eyebrow">A few days of research, planning &amp; testing design</p>
+      <h1 id="s1-title">Learning with<br><em>Eve, Atlas &amp; Wren.</em></h1>
+      <p class="dek">What we have learned so far, what is still only a hypothesis, and the next useful experiment.</p>
+      <span class="cover-label">7 SLIDES · ONE CLEAR NEXT STEP</span>
+    </div>
+    <footer class="bottomline"><span>ALICORN IS A WORK IN PROGRESS · NOT A PROVEN RESULT</span><span>01 / 07</span></footer>
+  </section>
+
+  <section class="slide" aria-labelledby="s2-title">
+    <header class="topline"><span>01 / START WITH THE EVIDENCE</span><span class="issue">Day 1 <i>✳</i></span></header>
+    <div class="content two-col"><div><p class="eyebrow">Before building, map the unknowns</p><h2 id="s2-title">The first lesson:<br><em>don't guess.</em></h2></div>
+      <div class="copy"><p>The first day was setup and question-framing, not experimentation. We inventoried what was known, surfaced open questions, and made a traceable place for the work.</p><ul class="points"><li>No Alicorn-specific test had been run.</li><li>Model, hardware, privacy needs, and success thresholds were still open questions.</li><li>Project notes and general research needed to stay clearly separated.</li></ul><p class="source">Source: <em>Day 1 Lab Notebook</em></p></div>
+    </div><footer class="bottomline"><span>SETUP IS USEFUL WORK, BUT IT IS NOT EVIDENCE OF PERFORMANCE</span><span>02 / 07</span></footer>
+  </section>
+
+  <section class="slide" aria-labelledby="s3-title">
+    <header class="topline"><span>02 / ATLAS'S RESEARCH-LED PROPOSAL</span><span class="issue">Starting point, not verdict <i>✳</i></span></header>
+    <div class="content"><p class="eyebrow">For changing, user-specific notes</p><h2 id="s3-title">Make the source<br><em>easy to inspect.</em></h2>
+      <div class="cards"><article class="card"><span class="number">01</span><h3>Clear rules</h3><p>Set answer rules and evidence requirements.</p></article><article class="card"><span class="number">02</span><h3>Retrieve notes</h3><p>Bring current source excerpts into answers.</p></article><article class="card muted"><span class="number">03</span><h3>Test before tuning</h3><p>Fine-tune only if tests reveal a repeated gap.</p></article></div>
+      <p class="caveat"><strong>Confidence label: likely recommendation from general research.</strong> Alicorn has not been tested with this approach.</p><p class="source">Sources: <em>Day 2 Findings — Plain-Language Summary</em>; <em>Day 2 Research — Notes vs Retrieval vs Fine-Tuning</em></p>
+    </div><footer class="bottomline"><span>RECOMMENDATION ≠ ALICORN RESULT</span><span>03 / 07</span></footer>
+  </section>
+
+  <section class="slide" aria-labelledby="s4-title">
+    <header class="topline"><span>03 / MAKE UNCERTAINTY TESTABLE</span><span class="issue">Proposed behavior <i>✳</i></span></header>
+    <div class="content two-col"><div><p class="eyebrow">A useful “I don't know”</p><h2 id="s4-title">Three reasons<br>to <em>pause.</em></h2><p class="lede">These are proposed abstention triggers. Whether Alicorn follows them reliably is unknown.</p></div>
+      <ol class="trigger-list"><li><span>01</span><div><h3>No relevant note</h3><p>The retrieved material does not answer the question.</p></div></li><li><span>02</span><div><h3>Conflicting notes</h3><p>Sources disagree and the conflict cannot be resolved.</p></div></li><li><span>03</span><div><h3>Unsupported claim</h3><p>A key detail would have to be inferred rather than cited.</p></div></li></ol>
+    </div><footer class="bottomline"><span>CONFIDENCE WORDS ALONE ARE NOT PROOF</span><span>04 / 07</span></footer>
+  </section>
+
+  <section class="slide" aria-labelledby="s5-title">
+    <header class="topline"><span>04 / MEASURE THE RIGHT THINGS</span><span class="issue">A proposed scorecard <i>✳</i></span></header>
+    <div class="content"><p class="eyebrow">Don't collapse quality into one number</p><h2 id="s5-title">Four lenses on<br><em>one answer.</em></h2>
+      <div class="metric-grid"><article><span>01</span><h3>Correctness</h3><p>Is the answer right?</p></article><article><span>02</span><h3>Evidence support</h3><p>Does each claim follow from its source?</p></article><article><span>03</span><h3>Correct abstention</h3><p>Does it hold back when evidence is missing?</p></article><article><span>04</span><h3>Useful coverage</h3><p>Does it answer what the evidence can support?</p></article></div>
+      <p class="caveat">Compare with the same hand-checked questions and fixed settings; review errors question by question. These are proposed measures, not measured scores.</p>
+      <p class="source">Source: <em>Day 2 Research — Fair Evaluation</em>; <em>Day 2 Findings — Plain-Language Summary</em></p>
+    </div><footer class="bottomline"><span>KEEP THE TEST FAIR, CONTROLLED &amp; INSPECTABLE</span><span>05 / 07</span></footer>
+  </section>
+
+  <section class="slide" aria-labelledby="s6-title">
+    <header class="topline"><span>05 / A TEAM WITH DISTINCT JOBS</span><span class="issue">A working rhythm <i>✳</i></span></header>
+    <div class="content"><p class="eyebrow">Research, writing, organization, action</p><h2 id="s6-title">Different strengths.<br><em>One evidence trail.</em></h2>
+      <div class="team-grid"><article><span class="role">ATLAS · RESEARCH</span><h3>Find and qualify</h3><p>Bring sourced findings, confidence labels, and limits into view.</p></article><article><span class="role">WREN · WRITING</span><h3>Make it clear</h3><p>Turn supported ideas into concise, readable copy. Anderson reported Wren as trained up; the writing samples are not in the project notes.</p></article><article><span class="role">DEWEY · LIBRARY</span><h3>Keep it findable</h3><p>Check what already exists, place notes sensibly, and link the work together.</p></article><article><span class="role">EVE · COORDINATION</span><h3>Move it forward</h3><p>Keep the scope clear, distinguish plans from results, and identify the next action.</p></article></div>
+      <p class="source">Wren status source: <em>Day 3 Source — Sprint Facts and Writing Samples</em></p>
+    </div><footer class="bottomline"><span>ATTRIBUTION STAYS WITH WHAT THE NOTES ACTUALLY SAY</span><span>06 / 07</span></footer>
+  </section>
+
+  <section class="slide closing" aria-labelledby="s7-title">
+    <header class="topline"><span>06 / WHERE WE ARE NOW</span><span class="issue">Next: run the test <i>✳</i></span></header>
+    <div class="content two-col"><div><p class="eyebrow">A plan is not a result</p><h2 id="s7-title">The scorecard<br>is still <em>blank.</em></h2><p class="lede">Ten test briefs are drafted. The Alicorn run has not happened, and no performance claim is established.</p></div>
+      <div class="next-box"><h3>The next useful step</h3><ol><li>Run the ten briefs through Alicorn.</li><li>Record its answers without showing the answer key.</li><li>Fill the scorecard and inspect the errors.</li><li>Then decide what to change.</li></ol><p class="final-note">Until then: rules + retrieval is a hypothesis to test, not a demonstrated improvement.</p></div>
+    </div><footer class="bottomline"><span>MAKE THE NEXT CLAIM EARN ITS EVIDENCE</span><span>07 / 07</span></footer>
+  </section>
+
+  <nav class="controls" aria-label="Presentation controls"><button id="prev" type="button" aria-label="Previous slide">←</button><span id="counter" aria-live="polite">01 / 07</span><button id="next" type="button" aria-label="Next slide">→</button><button id="fullscreen" type="button" aria-label="Toggle fullscreen" title="Fullscreen (F)">⛶</button><button id="edit-toggle" type="button" aria-pressed="false" title="Toggle copy editing">Edit copy</button><button id="reset-copy" type="button" title="Restore original copy">Reset</button></nav>
+  <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div><p class="key-hint">← → navigate · F fullscreen · E edit copy</p><div class="edit-status" id="edit-status" aria-live="polite">Copy edits save in this browser only.</div>
+</main>
+</body>
+</html>
